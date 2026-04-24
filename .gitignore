@@ -1,0 +1,69 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build / production
+# =========================
+dist/
+build/
+.next/
+out/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+.eslintcache
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# Optional: TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Optional: Misc
+# =========================
+*.zip
+*.tar
+*.gz
